@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_49af422c669e44a4f35fa151f9f71356 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_49af422c669e44a4f35fa151f9f71356" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_49af422c669e44a4f35fa151f9f71356 = L.map(
+                "map_49af422c669e44a4f35fa151f9f71356",
+                {
+                    center: [33.53085, -117.92445000000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8319d55ba895f44ffa18736ffe23986b = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+            var circle_marker_c52f0547aea780522da6d35bac486f12 = L.circleMarker(
+                [33.5886, -117.8789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 23.28, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_ddc711ed1629e51a07c34aa12088ff60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5231e3fcfda837fef8115e6d5eec895a = $(`<div id="html_5231e3fcfda837fef8115e6d5eec895a" style="width: 100.0%; height: 100.0%;">Newport Beach: 46.56% Republican</div>`)[0];
+            popup_ddc711ed1629e51a07c34aa12088ff60.setContent(html_5231e3fcfda837fef8115e6d5eec895a);
+        
+
+        circle_marker_c52f0547aea780522da6d35bac486f12.bindPopup(popup_ddc711ed1629e51a07c34aa12088ff60)
+        ;
+
+        
+    
+    
+            var circle_marker_e3e6f916654c0bbfacfb69e918680dcb = L.circleMarker(
+                [33.7592, -118.0825],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.895, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_8732411e98a59bd6ba298859a6127054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a71350989f333bbaf9930740e77f8b7a = $(`<div id="html_a71350989f333bbaf9930740e77f8b7a" style="width: 100.0%; height: 100.0%;">Huntington Beach: 39.79% Republican</div>`)[0];
+            popup_8732411e98a59bd6ba298859a6127054.setContent(html_a71350989f333bbaf9930740e77f8b7a);
+        
+
+        circle_marker_e3e6f916654c0bbfacfb69e918680dcb.bindPopup(popup_8732411e98a59bd6ba298859a6127054)
+        ;
+
+        
+    
+    
+            var circle_marker_9c9d5ec339166c16555354c8235e2be0 = L.circleMarker(
+                [33.4636, -117.6783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.865, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_185054117f661fc3b2530693250f393f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_583073e168b95230f7133859e6f2ef54 = $(`<div id="html_583073e168b95230f7133859e6f2ef54" style="width: 100.0%; height: 100.0%;">Laguna Bch / Dana Pt: 37.73% Republican</div>`)[0];
+            popup_185054117f661fc3b2530693250f393f.setContent(html_583073e168b95230f7133859e6f2ef54);
+        
+
+        circle_marker_9c9d5ec339166c16555354c8235e2be0.bindPopup(popup_185054117f661fc3b2530693250f393f)
+        ;
+
+        
+    
+    
+            var circle_marker_8db5940f966ed32497df66209922c2c9 = L.circleMarker(
+                [33.5997, -117.6994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.805, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_fd6ee57d10572cf9c4dcde99a6f91977 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45729d4d33c5c2c4c9aaa34fcf6ea6ca = $(`<div id="html_45729d4d33c5c2c4c9aaa34fcf6ea6ca" style="width: 100.0%; height: 100.0%;">Mission Viejo: 37.61% Republican</div>`)[0];
+            popup_fd6ee57d10572cf9c4dcde99a6f91977.setContent(html_45729d4d33c5c2c4c9aaa34fcf6ea6ca);
+        
+
+        circle_marker_8db5940f966ed32497df66209922c2c9.bindPopup(popup_fd6ee57d10572cf9c4dcde99a6f91977)
+        ;
+
+        
+    
+    
+            var circle_marker_6df4d575683fdede0159fa0046057319 = L.circleMarker(
+                [34.28, -118.8889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.025, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_c352eff3f04d87697b4a9c403b49f0ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f5f0290b32b4ae5fe7b03e80803de00 = $(`<div id="html_3f5f0290b32b4ae5fe7b03e80803de00" style="width: 100.0%; height: 100.0%;">Simi Valley: 36.05% Republican</div>`)[0];
+            popup_c352eff3f04d87697b4a9c403b49f0ce.setContent(html_3f5f0290b32b4ae5fe7b03e80803de00);
+        
+
+        circle_marker_6df4d575683fdede0159fa0046057319.bindPopup(popup_c352eff3f04d87697b4a9c403b49f0ce)
+        ;
+
+        
+    
+    
+            var circle_marker_a4f681c3c2eb295ca3b8c6870b850858 = L.circleMarker(
+                [33.9319, -117.9461],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.875, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_cc4c11a6f13c4f40c6187411425ef98d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e626b5be36a00710a73ebc867b4585c6 = $(`<div id="html_e626b5be36a00710a73ebc867b4585c6" style="width: 100.0%; height: 100.0%;">Brea: 35.75% Republican</div>`)[0];
+            popup_cc4c11a6f13c4f40c6187411425ef98d.setContent(html_e626b5be36a00710a73ebc867b4585c6);
+        
+
+        circle_marker_a4f681c3c2eb295ca3b8c6870b850858.bindPopup(popup_cc4c11a6f13c4f40c6187411425ef98d)
+        ;
+
+        
+    
+    
+            var circle_marker_1a316c3b511f34e0268b85deb5ffb2aa = L.circleMarker(
+                [33.6092, -117.7328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.575, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_8cc2b3e5fbba6f543d814ac44f2c0f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70269b00455675f63f4f0881fe2ee84f = $(`<div id="html_70269b00455675f63f4f0881fe2ee84f" style="width: 100.0%; height: 100.0%;">Laguna Hills: 35.15% Republican</div>`)[0];
+            popup_8cc2b3e5fbba6f543d814ac44f2c0f09.setContent(html_70269b00455675f63f4f0881fe2ee84f);
+        
+
+        circle_marker_1a316c3b511f34e0268b85deb5ffb2aa.bindPopup(popup_8cc2b3e5fbba6f543d814ac44f2c0f09)
+        ;
+
+        
+    
+    
+            var circle_marker_95277dde2a348ab5a4438363c07d8c94 = L.circleMarker(
+                [33.7447, -117.987],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.195, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_a5f5e15d62d1a14220bc9cf3857f38fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba27bc019c0d9a370819b3a90d0cc696 = $(`<div id="html_ba27bc019c0d9a370819b3a90d0cc696" style="width: 100.0%; height: 100.0%;">Westminster: 34.39% Republican</div>`)[0];
+            popup_a5f5e15d62d1a14220bc9cf3857f38fb.setContent(html_ba27bc019c0d9a370819b3a90d0cc696);
+        
+
+        circle_marker_95277dde2a348ab5a4438363c07d8c94.bindPopup(popup_a5f5e15d62d1a14220bc9cf3857f38fb)
+        ;
+
+        
+    
+    
+            var circle_marker_634cf83df3457e6a80d47400cf84254f = L.circleMarker(
+                [32.7983, -116.96],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.58, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_ed7b5ebdecec70b0b39e9b7ee1d2b82b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0edf64ec6f4cc4053adc8b9501c137c8 = $(`<div id="html_0edf64ec6f4cc4053adc8b9501c137c8" style="width: 100.0%; height: 100.0%;">El Cajon: 33.16% Republican</div>`)[0];
+            popup_ed7b5ebdecec70b0b39e9b7ee1d2b82b.setContent(html_0edf64ec6f4cc4053adc8b9501c137c8);
+        
+
+        circle_marker_634cf83df3457e6a80d47400cf84254f.bindPopup(popup_ed7b5ebdecec70b0b39e9b7ee1d2b82b)
+        ;
+
+        
+    
+    
+            var circle_marker_131eb8ae18e98fe227e5cc07f89aacd3 = L.circleMarker(
+                [34.3917, -118.5426],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.335, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_80812252d39f4e414f6954411875cb85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe8bd1da14d349a3749b5528bd5ed56 = $(`<div id="html_7fe8bd1da14d349a3749b5528bd5ed56" style="width: 100.0%; height: 100.0%;">Santa Clarita: 32.67% Republican</div>`)[0];
+            popup_80812252d39f4e414f6954411875cb85.setContent(html_7fe8bd1da14d349a3749b5528bd5ed56);
+        
+
+        circle_marker_131eb8ae18e98fe227e5cc07f89aacd3.bindPopup(popup_80812252d39f4e414f6954411875cb85)
+        ;
+
+        
+    
+    
+            var circle_marker_bc68a0ad4b66b255b71d6df36b0315e5 = L.circleMarker(
+                [33.67, -117.91],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.955, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_6cf6b31995b034e659b31e451605a629 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a0b5e25f67e6c0c63c4e49038d38fcc = $(`<div id="html_9a0b5e25f67e6c0c63c4e49038d38fcc" style="width: 100.0%; height: 100.0%;">Costa Mesa: 31.91% Republican</div>`)[0];
+            popup_6cf6b31995b034e659b31e451605a629.setContent(html_9a0b5e25f67e6c0c63c4e49038d38fcc);
+        
+
+        circle_marker_bc68a0ad4b66b255b71d6df36b0315e5.bindPopup(popup_6cf6b31995b034e659b31e451605a629)
+        ;
+
+        
+    
+    
+            var circle_marker_17f2674dbee820b7cf90d599352bdd2a = L.circleMarker(
+                [34.1533, -118.7617],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.7, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_709260a9e8c18f0912a8c6d66595dbd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b4a909e7cc4ecf1fe16bca74ed45a45 = $(`<div id="html_0b4a909e7cc4ecf1fe16bca74ed45a45" style="width: 100.0%; height: 100.0%;">Conejo Valley: 31.4% Republican</div>`)[0];
+            popup_709260a9e8c18f0912a8c6d66595dbd4.setContent(html_0b4a909e7cc4ecf1fe16bca74ed45a45);
+        
+
+        circle_marker_17f2674dbee820b7cf90d599352bdd2a.bindPopup(popup_709260a9e8c18f0912a8c6d66595dbd4)
+        ;
+
+        
+    
+    
+            var circle_marker_d5e6d63360bf05b47862407d938e2a94 = L.circleMarker(
+                [33.8183, -118.0392],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.055, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_c46ca9f65651f347ed1bfbba872bf74a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f72f3222bfdc1555cfb898de7701bd00 = $(`<div id="html_f72f3222bfdc1555cfb898de7701bd00" style="width: 100.0%; height: 100.0%;">Garden Grove: 30.11% Republican</div>`)[0];
+            popup_c46ca9f65651f347ed1bfbba872bf74a.setContent(html_f72f3222bfdc1555cfb898de7701bd00);
+        
+
+        circle_marker_d5e6d63360bf05b47862407d938e2a94.bindPopup(popup_c46ca9f65651f347ed1bfbba872bf74a)
+        ;
+
+        
+    
+    
+            var circle_marker_aee1fff6e5a1764165cfc16bb14c4c6f = L.circleMarker(
+                [33.8561, -118.0042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.985, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_bf865b68829706e615cd2777bd42eb78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be8688d9f493f5df3e76e4c99c2cc006 = $(`<div id="html_be8688d9f493f5df3e76e4c99c2cc006" style="width: 100.0%; height: 100.0%;">Fullerton: 29.97% Republican</div>`)[0];
+            popup_bf865b68829706e615cd2777bd42eb78.setContent(html_be8688d9f493f5df3e76e4c99c2cc006);
+        
+
+        circle_marker_aee1fff6e5a1764165cfc16bb14c4c6f.bindPopup(popup_bf865b68829706e615cd2777bd42eb78)
+        ;
+
+        
+    
+    
+            var circle_marker_2d8e33d6694e403446e5d8d5a9d6a729 = L.circleMarker(
+                [33.7408, -117.8814],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.905, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_19d2d1c080810f24b4b87738f3869959 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb4184f8f91ca65fa8ac7c5da8fddfe4 = $(`<div id="html_cb4184f8f91ca65fa8ac7c5da8fddfe4" style="width: 100.0%; height: 100.0%;">Orange / Tustin: 29.81% Republican</div>`)[0];
+            popup_19d2d1c080810f24b4b87738f3869959.setContent(html_cb4184f8f91ca65fa8ac7c5da8fddfe4);
+        
+
+        circle_marker_2d8e33d6694e403446e5d8d5a9d6a729.bindPopup(popup_19d2d1c080810f24b4b87738f3869959)
+        ;
+
+        
+    
+    
+            var circle_marker_504858f7d2d702637dacc69e302fce55 = L.circleMarker(
+                [33.2117, -117.3258],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.835, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_f4cd7fbb4ea6c8aa81ceee440e18e4f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0aa36a0590d9977e5e797163c70d5a = $(`<div id="html_4a0aa36a0590d9977e5e797163c70d5a" style="width: 100.0%; height: 100.0%;">Oceanside: 29.67% Republican</div>`)[0];
+            popup_f4cd7fbb4ea6c8aa81ceee440e18e4f5.setContent(html_4a0aa36a0590d9977e5e797163c70d5a);
+        
+
+        circle_marker_504858f7d2d702637dacc69e302fce55.bindPopup(popup_f4cd7fbb4ea6c8aa81ceee440e18e4f5)
+        ;
+
+        
+    
+    
+            var circle_marker_c65f10de824b559bb120205f3a092a55 = L.circleMarker(
+                [33.1247, -117.0808],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.83, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_61759203c731394c36de2a2f01340dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0808c1f11ce23d146bb1889d8a0594e = $(`<div id="html_b0808c1f11ce23d146bb1889d8a0594e" style="width: 100.0%; height: 100.0%;">Escondido / San Marcos: 29.66% Republican</div>`)[0];
+            popup_61759203c731394c36de2a2f01340dd4.setContent(html_b0808c1f11ce23d146bb1889d8a0594e);
+        
+
+        circle_marker_c65f10de824b559bb120205f3a092a55.bindPopup(popup_61759203c731394c36de2a2f01340dd4)
+        ;
+
+        
+    
+    
+            var circle_marker_f38b72308973e60dcba7cb4ec98afca4 = L.circleMarker(
+                [33.1936, -117.2411],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.77, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_a24112274484d1c01129ef39147991d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a916a1df2f78f75e0da85afa18c3619 = $(`<div id="html_7a916a1df2f78f75e0da85afa18c3619" style="width: 100.0%; height: 100.0%;">Vista: 27.54% Republican</div>`)[0];
+            popup_a24112274484d1c01129ef39147991d6.setContent(html_7a916a1df2f78f75e0da85afa18c3619);
+        
+
+        circle_marker_f38b72308973e60dcba7cb4ec98afca4.bindPopup(popup_a24112274484d1c01129ef39147991d6)
+        ;
+
+        
+    
+    
+            var circle_marker_4caccc5895ccc71704489464b36d903a = L.circleMarker(
+                [33.8361, -117.8897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.485, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_86a99aa2ee91982fe5eb33561e0aea92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3371c28a51635e986d9a3486e14c947 = $(`<div id="html_a3371c28a51635e986d9a3486e14c947" style="width: 100.0%; height: 100.0%;">Anaheim: 26.97% Republican</div>`)[0];
+            popup_86a99aa2ee91982fe5eb33561e0aea92.setContent(html_a3371c28a51635e986d9a3486e14c947);
+        
+
+        circle_marker_4caccc5895ccc71704489464b36d903a.bindPopup(popup_86a99aa2ee91982fe5eb33561e0aea92)
+        ;
+
+        
+    
+    
+            var circle_marker_22ff8671b1c5c5866746523cca4669d4 = L.circleMarker(
+                [33.0208, -117.2792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.43, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_d5c07464f4f846757fc3006f80b51ef6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7b1f54e7d23422f87311a70ac31ba03 = $(`<div id="html_c7b1f54e7d23422f87311a70ac31ba03" style="width: 100.0%; height: 100.0%;">North Beaches: 26.86% Republican</div>`)[0];
+            popup_d5c07464f4f846757fc3006f80b51ef6.setContent(html_c7b1f54e7d23422f87311a70ac31ba03);
+        
+
+        circle_marker_22ff8671b1c5c5866746523cca4669d4.bindPopup(popup_d5c07464f4f846757fc3006f80b51ef6)
+        ;
+
+        
+    
+    
+            var circle_marker_e515c76ae3b12b0d7e539a68f1eb0ebe = L.circleMarker(
+                [34.0731, -118.3994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.69, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_65a8aabd2aecf54533eac55f964bd49f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62ee2ab42e0e3fe3cb39da67b7b0bcdf = $(`<div id="html_62ee2ab42e0e3fe3cb39da67b7b0bcdf" style="width: 100.0%; height: 100.0%;">Beverly Hills: 25.38% Republican</div>`)[0];
+            popup_65a8aabd2aecf54533eac55f964bd49f.setContent(html_62ee2ab42e0e3fe3cb39da67b7b0bcdf);
+        
+
+        circle_marker_e515c76ae3b12b0d7e539a68f1eb0ebe.bindPopup(popup_65a8aabd2aecf54533eac55f964bd49f)
+        ;
+
+        
+    
+    
+            var circle_marker_16a47e967fd397fb5389b5d219e2c523 = L.circleMarker(
+                [33.9656, -118.0244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.485, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_5933d557341f3256950ba6e02b73d917 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42af025e718aae1d2cbfb4fd193d1f69 = $(`<div id="html_42af025e718aae1d2cbfb4fd193d1f69" style="width: 100.0%; height: 100.0%;">Whittier: 24.97% Republican</div>`)[0];
+            popup_5933d557341f3256950ba6e02b73d917.setContent(html_42af025e718aae1d2cbfb4fd193d1f69);
+        
+
+        circle_marker_16a47e967fd397fb5389b5d219e2c523.bindPopup(popup_5933d557341f3256950ba6e02b73d917)
+        ;
+
+        
+    
+    
+            var circle_marker_20ca21273e8bd337325fca700d351f58 = L.circleMarker(
+                [33.7586, -118.3458],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.295, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_f2ea331dc044e48788be9d5a00a6ee5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd328e9762f7dbd3475c52c8c2b3bb99 = $(`<div id="html_cd328e9762f7dbd3475c52c8c2b3bb99" style="width: 100.0%; height: 100.0%;">South Bay: 24.59% Republican</div>`)[0];
+            popup_f2ea331dc044e48788be9d5a00a6ee5f.setContent(html_cd328e9762f7dbd3475c52c8c2b3bb99);
+        
+
+        circle_marker_20ca21273e8bd337325fca700d351f58.bindPopup(popup_f2ea331dc044e48788be9d5a00a6ee5f)
+        ;
+
+        
+    
+    
+            var circle_marker_71223e64d0e83a2133ac1765b3b2634f = L.circleMarker(
+                [33.6842, -117.7925],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.29, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_301f2f1afb3b59de2d8698acb44a90cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_098e7de31e145642fefc6fc436d68899 = $(`<div id="html_098e7de31e145642fefc6fc436d68899" style="width: 100.0%; height: 100.0%;">Irvine: 24.58% Republican</div>`)[0];
+            popup_301f2f1afb3b59de2d8698acb44a90cf.setContent(html_098e7de31e145642fefc6fc436d68899);
+        
+
+        circle_marker_71223e64d0e83a2133ac1765b3b2634f.bindPopup(popup_301f2f1afb3b59de2d8698acb44a90cf)
+        ;
+
+        
+    
+    
+            var circle_marker_b29c43e675ecb909165e9cc016c377d4 = L.circleMarker(
+                [32.7714, -117.0228],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.115, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_6063f0301b0cef44072adb773b39af48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19c2e219bd2c59d48c796f2178a7135a = $(`<div id="html_19c2e219bd2c59d48c796f2178a7135a" style="width: 100.0%; height: 100.0%;">La Mesa: 24.23% Republican</div>`)[0];
+            popup_6063f0301b0cef44072adb773b39af48.setContent(html_19c2e219bd2c59d48c796f2178a7135a);
+        
+
+        circle_marker_b29c43e675ecb909165e9cc016c377d4.bindPopup(popup_6063f0301b0cef44072adb773b39af48)
+        ;
+
+        
+    
+    
+            var circle_marker_5c14fb558f615caaf64c0493a0dafeff = L.circleMarker(
+                [32.9628, -117.0358],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.475, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_2f8dbcef12342cb86eaaea607682b7e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_814c887a561e33933f9f88942a76013e = $(`<div id="html_814c887a561e33933f9f88942a76013e" style="width: 100.0%; height: 100.0%;">Mira Mesa / Rancho Bernardo: 22.95% Republican</div>`)[0];
+            popup_2f8dbcef12342cb86eaaea607682b7e3.setContent(html_814c887a561e33933f9f88942a76013e);
+        
+
+        circle_marker_5c14fb558f615caaf64c0493a0dafeff.bindPopup(popup_2f8dbcef12342cb86eaaea607682b7e3)
+        ;
+
+        
+    
+    
+            var circle_marker_feb8dcb21ab74cac9481f0aa251a97a5 = L.circleMarker(
+                [34.11, -117.7197],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.39, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_9842af0ad21017420577843401672097 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2992c7b866d3dc74b71873b68708f7e7 = $(`<div id="html_2992c7b866d3dc74b71873b68708f7e7" style="width: 100.0%; height: 100.0%;">Pomona / Claremont: 22.78% Republican</div>`)[0];
+            popup_9842af0ad21017420577843401672097.setContent(html_2992c7b866d3dc74b71873b68708f7e7);
+        
+
+        circle_marker_feb8dcb21ab74cac9481f0aa251a97a5.bindPopup(popup_9842af0ad21017420577843401672097)
+        ;
+
+        
+    
+    
+            var circle_marker_bed5b9c2fc0b0b37e8fd1be273c747fe = L.circleMarker(
+                [34.1306, -117.9069],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.345, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_f7ae730c2ba5e8b66610915138ff9b72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f74483226e6546d5d0f262ca829495a7 = $(`<div id="html_f74483226e6546d5d0f262ca829495a7" style="width: 100.0%; height: 100.0%;">Glendora: 22.69% Republican</div>`)[0];
+            popup_f7ae730c2ba5e8b66610915138ff9b72.setContent(html_f74483226e6546d5d0f262ca829495a7);
+        
+
+        circle_marker_bed5b9c2fc0b0b37e8fd1be273c747fe.bindPopup(popup_f7ae730c2ba5e8b66610915138ff9b72)
+        ;
+
+        
+    
+    
+            var circle_marker_acd9bd69110a04526448c86a4479068a = L.circleMarker(
+                [32.67, -117.03],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.305, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_5c09a750eb41a33f9641a31cf2dc1a2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88c7a5f0f59d483029bb3aa16481ae5b = $(`<div id="html_88c7a5f0f59d483029bb3aa16481ae5b" style="width: 100.0%; height: 100.0%;">Chula Vista: 22.61% Republican</div>`)[0];
+            popup_5c09a750eb41a33f9641a31cf2dc1a2d.setContent(html_88c7a5f0f59d483029bb3aa16481ae5b);
+        
+
+        circle_marker_acd9bd69110a04526448c86a4479068a.bindPopup(popup_5c09a750eb41a33f9641a31cf2dc1a2d)
+        ;
+
+        
+    
+    
+            var circle_marker_586d4649cfd34118613cbf581637a033 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.785, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_7b3899e8e66d782aac30693024c321c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b909153fd4ee1b480e20dcbd671d0d41 = $(`<div id="html_b909153fd4ee1b480e20dcbd671d0d41" style="width: 100.0%; height: 100.0%;">El Segundo: 21.57% Republican</div>`)[0];
+            popup_7b3899e8e66d782aac30693024c321c2.setContent(html_b909153fd4ee1b480e20dcbd671d0d41);
+        
+
+        circle_marker_586d4649cfd34118613cbf581637a033.bindPopup(popup_7b3899e8e66d782aac30693024c321c2)
+        ;
+
+        
+    
+    
+            var circle_marker_8d5b88dfe61ba5b596d33fdc9a1f9c43 = L.circleMarker(
+                [32.6781, -117.0992],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.465, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_8680b45354bcc7e13f1faf8ef86b89f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_905dfc7348190ac99a5a101974d90127 = $(`<div id="html_905dfc7348190ac99a5a101974d90127" style="width: 100.0%; height: 100.0%;">National City: 20.93% Republican</div>`)[0];
+            popup_8680b45354bcc7e13f1faf8ef86b89f3.setContent(html_905dfc7348190ac99a5a101974d90127);
+        
+
+        circle_marker_8d5b88dfe61ba5b596d33fdc9a1f9c43.bindPopup(popup_8680b45354bcc7e13f1faf8ef86b89f3)
+        ;
+
+        
+    
+    
+            var circle_marker_1c5b0601bff8b921e24d7042b10aba92 = L.circleMarker(
+                [32.8328, -117.2713],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_9604c5b6b355df1ed6e686f2bffe93d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fde432423102842a7a6f721ae7baf0a = $(`<div id="html_0fde432423102842a7a6f721ae7baf0a" style="width: 100.0%; height: 100.0%;">La Jolla: 20.64% Republican</div>`)[0];
+            popup_9604c5b6b355df1ed6e686f2bffe93d2.setContent(html_0fde432423102842a7a6f721ae7baf0a);
+        
+
+        circle_marker_1c5b0601bff8b921e24d7042b10aba92.bindPopup(popup_9604c5b6b355df1ed6e686f2bffe93d2)
+        ;
+
+        
+    
+    
+            var circle_marker_45171950f071f61c86db7de27182c5ca = L.circleMarker(
+                [32.715, -117.1625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_ef0078d8ad33a1746c3a5bdacf945c5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48cd8c3b6e3fab441e084d1a8fb4f71d = $(`<div id="html_48cd8c3b6e3fab441e084d1a8fb4f71d" style="width: 100.0%; height: 100.0%;">Balboa: 20.64% Republican</div>`)[0];
+            popup_ef0078d8ad33a1746c3a5bdacf945c5d.setContent(html_48cd8c3b6e3fab441e084d1a8fb4f71d);
+        
+
+        circle_marker_45171950f071f61c86db7de27182c5ca.bindPopup(popup_ef0078d8ad33a1746c3a5bdacf945c5d)
+        ;
+
+        
+    
+    
+            var circle_marker_6eabeb916792680cc8d71e84a48f3067 = L.circleMarker(
+                [32.715, -117.1625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_e889ed20e791a6191255547057b6ffa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6704262e163007194d0826b29cd7ee64 = $(`<div id="html_6704262e163007194d0826b29cd7ee64" style="width: 100.0%; height: 100.0%;">City Heights: 20.64% Republican</div>`)[0];
+            popup_e889ed20e791a6191255547057b6ffa5.setContent(html_6704262e163007194d0826b29cd7ee64);
+        
+
+        circle_marker_6eabeb916792680cc8d71e84a48f3067.bindPopup(popup_e889ed20e791a6191255547057b6ffa5)
+        ;
+
+        
+    
+    
+            var circle_marker_a35124a5e68dcba6c01f3b979c1af511 = L.circleMarker(
+                [32.715, -117.1625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_81f0327a755bc37fed569e8f876c9705 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8678f7ff44fabb62b41566028b67bd1c = $(`<div id="html_8678f7ff44fabb62b41566028b67bd1c" style="width: 100.0%; height: 100.0%;">Old Town / Point Loma: 20.64% Republican</div>`)[0];
+            popup_81f0327a755bc37fed569e8f876c9705.setContent(html_8678f7ff44fabb62b41566028b67bd1c);
+        
+
+        circle_marker_a35124a5e68dcba6c01f3b979c1af511.bindPopup(popup_81f0327a755bc37fed569e8f876c9705)
+        ;
+
+        
+    
+    
+            var circle_marker_5c3d61fcf0520648d9ba052863b3513a = L.circleMarker(
+                [32.715, -117.1625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_aedc352a0ff4d5e67d59ef0a9dc0a642 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e08b794caabf1859e93221ba80ca43da = $(`<div id="html_e08b794caabf1859e93221ba80ca43da" style="width: 100.0%; height: 100.0%;">Clairemont: 20.64% Republican</div>`)[0];
+            popup_aedc352a0ff4d5e67d59ef0a9dc0a642.setContent(html_e08b794caabf1859e93221ba80ca43da);
+        
+
+        circle_marker_5c3d61fcf0520648d9ba052863b3513a.bindPopup(popup_aedc352a0ff4d5e67d59ef0a9dc0a642)
+        ;
+
+        
+    
+    
+            var circle_marker_e1843444ba4ebfccaece2bd358eedcf7 = L.circleMarker(
+                [32.715, -117.1625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.32, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_1011eb3003e26680ecc6495ab63ec8cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d8878666049f60e7720d9944575b976 = $(`<div id="html_9d8878666049f60e7720d9944575b976" style="width: 100.0%; height: 100.0%;">Mission Bay: 20.64% Republican</div>`)[0];
+            popup_1011eb3003e26680ecc6495ab63ec8cf.setContent(html_9d8878666049f60e7720d9944575b976);
+        
+
+        circle_marker_e1843444ba4ebfccaece2bd358eedcf7.bindPopup(popup_1011eb3003e26680ecc6495ab63ec8cf)
+        ;
+
+        
+    
+    
+            var circle_marker_00dace453dc2334237dff1a557175f46 = L.circleMarker(
+                [33.9381, -118.1308],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.03, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_b79a50f18e4c6fbe5d25d1b243777c13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f36a35b95ac8e34f59bd46dd53015914 = $(`<div id="html_f36a35b95ac8e34f59bd46dd53015914" style="width: 100.0%; height: 100.0%;">Mid-Counties: 20.06% Republican</div>`)[0];
+            popup_b79a50f18e4c6fbe5d25d1b243777c13.setContent(html_f36a35b95ac8e34f59bd46dd53015914);
+        
+
+        circle_marker_00dace453dc2334237dff1a557175f46.bindPopup(popup_b79a50f18e4c6fbe5d25d1b243777c13)
+        ;
+
+        
+    
+    
+            var circle_marker_d8e55c59779de26b5454a7d7fbd812f4 = L.circleMarker(
+                [34.1328, -118.0364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.625, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_3d97e8fd37198bc205b50c549da535cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afe7d76e50a235d62f9779be858188a6 = $(`<div id="html_afe7d76e50a235d62f9779be858188a6" style="width: 100.0%; height: 100.0%;">Rosemead / El Monte: 19.25% Republican</div>`)[0];
+            popup_3d97e8fd37198bc205b50c549da535cb.setContent(html_afe7d76e50a235d62f9779be858188a6);
+        
+
+        circle_marker_d8e55c59779de26b5454a7d7fbd812f4.bindPopup(popup_3d97e8fd37198bc205b50c549da535cb)
+        ;
+
+        
+    
+    
+            var circle_marker_eb34863bdd17b571f0d9cc2bc04c807e = L.circleMarker(
+                [34.0917, -117.8792],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.48, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_eeb9996b322090c85f22e2cef79c137b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60d8e051f44d0eba0a4774356ab883db = $(`<div id="html_60d8e051f44d0eba0a4774356ab883db" style="width: 100.0%; height: 100.0%;">West Covina: 18.96% Republican</div>`)[0];
+            popup_eeb9996b322090c85f22e2cef79c137b.setContent(html_60d8e051f44d0eba0a4774356ab883db);
+        
+
+        circle_marker_eb34863bdd17b571f0d9cc2bc04c807e.bindPopup(popup_eeb9996b322090c85f22e2cef79c137b)
+        ;
+
+        
+    
+    
+            var circle_marker_8993ed1c0d1357489172530f1107eb0c = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.23, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_d471f74fc47879e7acc951fd957c17f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42569fc828965a384c76441ef0c35a9 = $(`<div id="html_c42569fc828965a384c76441ef0c35a9" style="width: 100.0%; height: 100.0%;">Burbank / Glendale: 18.46% Republican</div>`)[0];
+            popup_d471f74fc47879e7acc951fd957c17f4.setContent(html_c42569fc828965a384c76441ef0c35a9);
+        
+
+        circle_marker_8993ed1c0d1357489172530f1107eb0c.bindPopup(popup_d471f74fc47879e7acc951fd957c17f4)
+        ;
+
+        
+    
+    
+            var circle_marker_b14f3f5748881f742c2a49fcdd5c4d78 = L.circleMarker(
+                [33.7408, -117.8814],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.205, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_be7a289bc916836767a01e9f754d643d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b0ac31dda3c0ce0b13b0d831ee6b1ba = $(`<div id="html_7b0ac31dda3c0ce0b13b0d831ee6b1ba" style="width: 100.0%; height: 100.0%;">Santa Ana: 18.41% Republican</div>`)[0];
+            popup_be7a289bc916836767a01e9f754d643d.setContent(html_7b0ac31dda3c0ce0b13b0d831ee6b1ba);
+        
+
+        circle_marker_b14f3f5748881f742c2a49fcdd5c4d78.bindPopup(popup_be7a289bc916836767a01e9f754d643d)
+        ;
+
+        
+    
+    
+            var circle_marker_c600d47ada985ab9e13f4d8551b180b7 = L.circleMarker(
+                [33.8475, -118.12],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.96, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_eb8e7f1e4a382e374493a6f023a10370 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_664c17e27acb64a60d6db48492d590b1 = $(`<div id="html_664c17e27acb64a60d6db48492d590b1" style="width: 100.0%; height: 100.0%;">Long Beach: 17.92% Republican</div>`)[0];
+            popup_eb8e7f1e4a382e374493a6f023a10370.setContent(html_664c17e27acb64a60d6db48492d590b1);
+        
+
+        circle_marker_c600d47ada985ab9e13f4d8551b180b7.bindPopup(popup_eb8e7f1e4a382e374493a6f023a10370)
+        ;
+
+        
+    
+    
+            var circle_marker_3f756243a90b6ec8db0d2ec10d5685e7 = L.circleMarker(
+                [34.1886, -118.1347],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.095, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_adef2cb9a4839c06e23b1f4438614602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c27af461132ddfc69645a2f1b56a40 = $(`<div id="html_e4c27af461132ddfc69645a2f1b56a40" style="width: 100.0%; height: 100.0%;">Pasadena: 16.19% Republican</div>`)[0];
+            popup_adef2cb9a4839c06e23b1f4438614602.setContent(html_e4c27af461132ddfc69645a2f1b56a40);
+        
+
+        circle_marker_3f756243a90b6ec8db0d2ec10d5685e7.bindPopup(popup_adef2cb9a4839c06e23b1f4438614602)
+        ;
+
+        
+    
+    
+            var circle_marker_48da1f8909ea91d25d76776977f54bfe = L.circleMarker(
+                [34.1833, -118.4333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.015, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_e50a07adbd0557f56b82356fbf8bc40a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b39cbe8b9fda7930df1402fb67aa82 = $(`<div id="html_15b39cbe8b9fda7930df1402fb67aa82" style="width: 100.0%; height: 100.0%;">Van Nuys / N Hollywood: 16.03% Republican</div>`)[0];
+            popup_e50a07adbd0557f56b82356fbf8bc40a.setContent(html_15b39cbe8b9fda7930df1402fb67aa82);
+        
+
+        circle_marker_48da1f8909ea91d25d76776977f54bfe.bindPopup(popup_e50a07adbd0557f56b82356fbf8bc40a)
+        ;
+
+        
+    
+    
+            var circle_marker_ebde28ea0e10cf2bc54afcb96de3510a = L.circleMarker(
+                [34.2061, -118.1994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.86, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_c206fc699770cd64b56e82054558b0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04632acccd88046a97f81b9390674d26 = $(`<div id="html_04632acccd88046a97f81b9390674d26" style="width: 100.0%; height: 100.0%;">Panorama Hills / La Cresenta: 15.72% Republican</div>`)[0];
+            popup_c206fc699770cd64b56e82054558b0e1.setContent(html_04632acccd88046a97f81b9390674d26);
+        
+
+        circle_marker_ebde28ea0e10cf2bc54afcb96de3510a.bindPopup(popup_c206fc699770cd64b56e82054558b0e1)
+        ;
+
+        
+    
+    
+            var circle_marker_02bbca8c1cb8fec97ff7b27b15736124 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.785, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_1687408ab0a6738262c98f4a686589b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52e12f44396b674bab65c4c5cd99ef44 = $(`<div id="html_52e12f44396b674bab65c4c5cd99ef44" style="width: 100.0%; height: 100.0%;">Downtown: 15.57% Republican</div>`)[0];
+            popup_1687408ab0a6738262c98f4a686589b1.setContent(html_52e12f44396b674bab65c4c5cd99ef44);
+        
+
+        circle_marker_02bbca8c1cb8fec97ff7b27b15736124.bindPopup(popup_1687408ab0a6738262c98f4a686589b1)
+        ;
+
+        
+    
+    
+            var circle_marker_b71eaef3fc7c11d104926a68f35928ae = L.circleMarker(
+                [34.1511, -118.4483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.635, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_144c2715745769930c8a762973879a2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53b3381466d328537123cda72ad83b0f = $(`<div id="html_53b3381466d328537123cda72ad83b0f" style="width: 100.0%; height: 100.0%;">Sherman Oaks / Studio City: 15.27% Republican</div>`)[0];
+            popup_144c2715745769930c8a762973879a2b.setContent(html_53b3381466d328537123cda72ad83b0f);
+        
+
+        circle_marker_b71eaef3fc7c11d104926a68f35928ae.bindPopup(popup_144c2715745769930c8a762973879a2b)
+        ;
+
+        
+    
+    
+            var circle_marker_b984f515469fd20a647dba7ba98bc189 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.315, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_edc8d243abb16bc0e804e10c9bc7078e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5eda355cfbb6a9e6cec1103fe3cb8a93 = $(`<div id="html_5eda355cfbb6a9e6cec1103fe3cb8a93" style="width: 100.0%; height: 100.0%;">Malibu Hills: 14.63% Republican</div>`)[0];
+            popup_edc8d243abb16bc0e804e10c9bc7078e.setContent(html_5eda355cfbb6a9e6cec1103fe3cb8a93);
+        
+
+        circle_marker_b984f515469fd20a647dba7ba98bc189.bindPopup(popup_edc8d243abb16bc0e804e10c9bc7078e)
+        ;
+
+        
+    
+    
+            var circle_marker_53e26eb15f2d58dba3798678f655c566 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.305, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_b667852d88bcf7ca59a92a43d2ca7c11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc65fdebd4de0b9e8cf1ae2a028145fe = $(`<div id="html_cc65fdebd4de0b9e8cf1ae2a028145fe" style="width: 100.0%; height: 100.0%;">East: 14.61% Republican</div>`)[0];
+            popup_b667852d88bcf7ca59a92a43d2ca7c11.setContent(html_cc65fdebd4de0b9e8cf1ae2a028145fe);
+        
+
+        circle_marker_53e26eb15f2d58dba3798678f655c566.bindPopup(popup_b667852d88bcf7ca59a92a43d2ca7c11)
+        ;
+
+        
+    
+    
+            var circle_marker_d3e84ed41d614f4e9525d2fd6deb25ed = L.circleMarker(
+                [34.1333, -118.65],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.145, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_b59fb3957c29e368c31ddfac4dd0eb54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c79e9495ad52aa18c7f4c8aa676496c = $(`<div id="html_9c79e9495ad52aa18c7f4c8aa676496c" style="width: 100.0%; height: 100.0%;">Woodland Hills / Encino: 14.29% Republican</div>`)[0];
+            popup_b59fb3957c29e368c31ddfac4dd0eb54.setContent(html_9c79e9495ad52aa18c7f4c8aa676496c);
+        
+
+        circle_marker_d3e84ed41d614f4e9525d2fd6deb25ed.bindPopup(popup_b59fb3957c29e368c31ddfac4dd0eb54)
+        ;
+
+        
+    
+    
+            var circle_marker_6c164a8ba2890a42237b36f9e491dd33 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.59, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_8ea95736872e169a1dd6dd41efbd6bca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1827a3f0d1b134292c7f0dd8090f2a6 = $(`<div id="html_e1827a3f0d1b134292c7f0dd8090f2a6" style="width: 100.0%; height: 100.0%;">Mid-Wilshire: 13.18% Republican</div>`)[0];
+            popup_8ea95736872e169a1dd6dd41efbd6bca.setContent(html_e1827a3f0d1b134292c7f0dd8090f2a6);
+        
+
+        circle_marker_6c164a8ba2890a42237b36f9e491dd33.bindPopup(popup_8ea95736872e169a1dd6dd41efbd6bca)
+        ;
+
+        
+    
+    
+            var circle_marker_0346b5404ef6f2b8c9e21890d48b53ca = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.59, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_ca15f2d8d4c4fe4320e0cb89bb1e3198 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_120d88197c9c9620639a21063b89540a = $(`<div id="html_120d88197c9c9620639a21063b89540a" style="width: 100.0%; height: 100.0%;">Westwood / Brentwood: 13.18% Republican</div>`)[0];
+            popup_ca15f2d8d4c4fe4320e0cb89bb1e3198.setContent(html_120d88197c9c9620639a21063b89540a);
+        
+
+        circle_marker_0346b5404ef6f2b8c9e21890d48b53ca.bindPopup(popup_ca15f2d8d4c4fe4320e0cb89bb1e3198)
+        ;
+
+        
+    
+    
+            var circle_marker_e751a353e95b035b26cdc7112316de2c = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.59, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_70418853fb14a639cf49912b0251a895 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_222494f40453e0adcddfa3e624e64ed1 = $(`<div id="html_222494f40453e0adcddfa3e624e64ed1" style="width: 100.0%; height: 100.0%;">Marina / Venice: 13.18% Republican</div>`)[0];
+            popup_70418853fb14a639cf49912b0251a895.setContent(html_222494f40453e0adcddfa3e624e64ed1);
+        
+
+        circle_marker_e751a353e95b035b26cdc7112316de2c.bindPopup(popup_70418853fb14a639cf49912b0251a895)
+        ;
+
+        
+    
+    
+            var circle_marker_bcc9538a9e28fe5fbc745c4e7c46931c = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.44, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_f0fabb886b0b362a4464d05f3c135f32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_322cc39ff77a7a21032eef0985f25871 = $(`<div id="html_322cc39ff77a7a21032eef0985f25871" style="width: 100.0%; height: 100.0%;">Hollywood / Silverlake: 12.88% Republican</div>`)[0];
+            popup_f0fabb886b0b362a4464d05f3c135f32.setContent(html_322cc39ff77a7a21032eef0985f25871);
+        
+
+        circle_marker_bcc9538a9e28fe5fbc745c4e7c46931c.bindPopup(popup_f0fabb886b0b362a4464d05f3c135f32)
+        ;
+
+        
+    
+    
+            var circle_marker_00fb6bd5656afd9ecf5df59ba20472a5 = L.circleMarker(
+                [34.2506, -118.6148],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.335, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_c52572cb4558ad196e3d6d54189459a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e2591fe6237127ec65f9cf3dfe134d4 = $(`<div id="html_9e2591fe6237127ec65f9cf3dfe134d4" style="width: 100.0%; height: 100.0%;">Chatsworth / Canoga Park: 12.67% Republican</div>`)[0];
+            popup_c52572cb4558ad196e3d6d54189459a2.setContent(html_9e2591fe6237127ec65f9cf3dfe134d4);
+        
+
+        circle_marker_00fb6bd5656afd9ecf5df59ba20472a5.bindPopup(popup_c52572cb4558ad196e3d6d54189459a2)
+        ;
+
+        
+    
+    
+            var circle_marker_fe0ab993ada9f9860467266a127e791f = L.circleMarker(
+                [34.2814, -118.5714],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.335, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_8636176251a1558184e9e78b94f9e8a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ecc0ee74d998acf0999e209864a41fb = $(`<div id="html_8ecc0ee74d998acf0999e209864a41fb" style="width: 100.0%; height: 100.0%;">Northridge: 12.67% Republican</div>`)[0];
+            popup_8636176251a1558184e9e78b94f9e8a5.setContent(html_8ecc0ee74d998acf0999e209864a41fb);
+        
+
+        circle_marker_fe0ab993ada9f9860467266a127e791f.bindPopup(popup_8636176251a1558184e9e78b94f9e8a5)
+        ;
+
+        
+    
+    
+            var circle_marker_130ba55b5c2f6d12ba995bae6aa0505a = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.305, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_03313e19033371223c53d0b283816aa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94142928e090d4ce89d9160087c0b94f = $(`<div id="html_94142928e090d4ce89d9160087c0b94f" style="width: 100.0%; height: 100.0%;">Inglewood / Hawthorne: 12.61% Republican</div>`)[0];
+            popup_03313e19033371223c53d0b283816aa5.setContent(html_94142928e090d4ce89d9160087c0b94f);
+        
+
+        circle_marker_130ba55b5c2f6d12ba995bae6aa0505a.bindPopup(popup_03313e19033371223c53d0b283816aa5)
+        ;
+
+        
+    
+    
+            var circle_marker_47d127e2ae7cb1629251d781dbccbed7 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.93, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_08b1380b0cc5fa613cdbd196a45f6e20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_801b57b67f9daced8faf372d180d307c = $(`<div id="html_801b57b67f9daced8faf372d180d307c" style="width: 100.0%; height: 100.0%;">Culver City: 11.86% Republican</div>`)[0];
+            popup_08b1380b0cc5fa613cdbd196a45f6e20.setContent(html_801b57b67f9daced8faf372d180d307c);
+        
+
+        circle_marker_47d127e2ae7cb1629251d781dbccbed7.bindPopup(popup_08b1380b0cc5fa613cdbd196a45f6e20)
+        ;
+
+        
+    
+    
+            var circle_marker_2f0fa0aa44bb27379a3e83b30d6de9d4 = L.circleMarker(
+                [34.0219, -118.4814],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.675, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_200def43fd447c0adc15b051235aa02b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01102eb4c963dbe1305f1667ba1ad964 = $(`<div id="html_01102eb4c963dbe1305f1667ba1ad964" style="width: 100.0%; height: 100.0%;">Santa Monica: 11.35% Republican</div>`)[0];
+            popup_200def43fd447c0adc15b051235aa02b.setContent(html_01102eb4c963dbe1305f1667ba1ad964);
+        
+
+        circle_marker_2f0fa0aa44bb27379a3e83b30d6de9d4.bindPopup(popup_200def43fd447c0adc15b051235aa02b)
+        ;
+
+        
+    
+    
+            var circle_marker_b689afdcc716338e7e3a7ea3440d9e11 = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.38, "stroke": true, "weight": 3}
+            ).addTo(map_49af422c669e44a4f35fa151f9f71356);
+        
+    
+        var popup_406ba080cd24b58590829ff63fecb99a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04b94571643bedb1d669255db8a5e527 = $(`<div id="html_04b94571643bedb1d669255db8a5e527" style="width: 100.0%; height: 100.0%;">South Central: 10.76% Republican</div>`)[0];
+            popup_406ba080cd24b58590829ff63fecb99a.setContent(html_04b94571643bedb1d669255db8a5e527);
+        
+
+        circle_marker_b689afdcc716338e7e3a7ea3440d9e11.bindPopup(popup_406ba080cd24b58590829ff63fecb99a)
+        ;
+
+        
+    
+</script>
+</html>
